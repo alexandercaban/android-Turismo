@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FinalProjectTurismo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_lista_sitios_turisticos">listaSitiosTuristicos</string>
+</resources>

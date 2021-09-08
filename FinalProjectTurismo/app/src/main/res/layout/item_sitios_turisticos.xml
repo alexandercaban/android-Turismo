@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/ic_favorite_star"
+                 />
+             <Space
+                 android:layout_width="15dp"
+                 android:layout_height="10dp" />
+             <TextView
+                 android:id="@+id/tvDescripcion"
+                 android:text="Descripcion"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textSize="18dp"
+                 android:textColor="@color/colorPrimary"
+                 />
+     </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+              <TextView
+                  android:text="Direcciòn: "
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:id="@+id/tvDireccion"
+                  android:text="Direccion"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+      </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:text="Sitio Web: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+             <TextView
+                 android:id="@+id/tvSitioweb"
+                 android:text="Sitioweb"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:text="Email: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+             <TextView
+                 android:id="@+id/tvEmail"
+                 android:text="Email"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:text="Tel: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+             <TextView
+                 android:id="@+id/tvFijo"
+                 android:text="Fijo"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+             <Space
+                 android:layout_width="40dp"
+                 android:layout_height="0dp" />
+              <TextView
+                    android:text="Cel: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tvCelular"
+                    android:text="Celular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+</LinearLayout>
